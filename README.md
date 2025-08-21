@@ -31,14 +31,24 @@ TS-DAR tutorial notebook for PP2A: (./PP2A/PP2A.ipynb)
 ### Installation Guide:
 #### 1. Download and install Anaconda:
 wget https://repo.anaconda.com/archive/Anaconda3-2024.06-1-Linux-x86_64.sh <br>
+
 ./Anaconda3-2024.06-1-Linux-x86_64.sh
+
 #### 2. Create a new conda environment and install the ts-dar source code locally:
+
 conda create -n ts-dar python=3.9 <br>
+
 conda activate ts-dar <br>
+
 #### 3. Install dependencies
+
 !pip install matplotlib numpy==1.26.1 scipy==1.11.4 torch==1.13.1 tqdm==4.66.1
+
 #### 4. Clone the repository
+
 !git clone https://github.com/xuhuihuang/ts-dar.git
+
 #### 5. Install the package
+
 !python -m pip install ./ts-dar
 
