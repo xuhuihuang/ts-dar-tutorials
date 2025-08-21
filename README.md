@@ -9,15 +9,15 @@ The MD trajectories as training datasets have been converted into features and a
 
 **A. For the alanine dipeptide system:**
 Featurized MD trajectories: [https://zenodo.org/records/16922765/files/Alanine_dipeptide.zip?download=1]
-TS-DAR tutorial notebook for alanine dipeptide: (./tutorials/Alanine_dipeptide.ipynb)
+TS-DAR tutorial notebook for alanine dipeptide: (./Alanine_dipeptide.ipynb)
 
 **B. For the villin headpiece (HP35) system:**
 Featurized MD trajectories: [https://zenodo.org/records/16922765/files/HP35.zip?download=1]
-TS-DAR tutorial notebook for HP35: (./tutorials/HP35.ipynb)
+TS-DAR tutorial notebook for HP35: (./HP35.ipynb)
 
 **C. For the PP2A system:**
 Featurized MD trajectories: [https://zenodo.org/records/16922765/files/PP2A.zip?download=1]
-TS-DAR tutorial notebook for PP2A: (./tutorials/PP2A.ipynb)
+TS-DAR tutorial notebook for PP2A: (./PP2A.ipynb)
 
 ### Installation Guide:
 #### 1. Download and install Anaconda:
