@@ -2,6 +2,7 @@
 1. The Jupyter notebook for Villin Headpiece (HP35): (./HP35.ipynb)
 2. Examples of trained models ./trained_model_examples/
 3. The Python code to train the TS-DAR models: (./trained_model_examples/train.py)
+4. Additional scripts for those running on HPC or HTC systems.
 
 The featurized MD trajectories are available on Zenodo: https://zenodo.org/records/17469029/files/HP35_data.zip?download=1
 
