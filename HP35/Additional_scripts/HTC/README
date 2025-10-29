@@ -1,0 +1,7 @@
+# This folder includes the necessary fils to train a TS-DAR model on HTC systems.
+
+(1) train.py - contains the code to load the systems data and train the TS-DAR model
+(2) submit.sh - the executable
+(3) submit.sub - the submit file (type "condor_submit submit.sub" to submit on HTC systems)
+
+NOTE: Create a gzipped tarball before transferring the data to a HTC system: tar -czf HP35_data.tar.gz HP35_data
