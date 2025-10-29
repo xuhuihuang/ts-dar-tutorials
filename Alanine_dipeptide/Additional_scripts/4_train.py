@@ -22,7 +22,7 @@ loader_train = DataLoader(train_data, batch_size=1000, shuffle=True) # load data
 loader_val = DataLoader(val_data, batch_size=len(val_data), shuffle=False) # single batch
 
 # Initialize the TS-DAR model with specific network architecture
-lobe = TSDARLayer([30,30,30,30,10,2],n_states=2)
+lobe = TSDARLayer([30,30,30,30,10,3],n_states=4)
 
 # Define device
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -31,8 +31,8 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 lobe = lobe.to(device=device)
 
 # Initialize TS-DAR model for training
-tsdar = TSDAR(lobe = lobe, learning_rate = 1e-3, device = device, mode = 'regularize', beta=0.01, feat_dim=2, n_states=2, pretrain=10)
-tsdar_model = tsdar.fit(loader_train, n_epochs=20, validation_loader=loader_val).fetch_model()
+tsdar = TSDAR(lobe = lobe, learning_rate = 1e-3, device = device, mode = 'regularize', beta=0.01, feat_dim=3, n_states=4, pretrain=50)
+tsdar_model = tsdar.fit(loader_train, n_epochs=60, validation_loader=loader_val).fetch_model()
 
 validation_vamp = tsdar.validation_vamp
 validation_dis = tsdar.validation_dis
