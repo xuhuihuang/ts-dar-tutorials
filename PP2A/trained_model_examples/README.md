@@ -1,4 +1,4 @@
-This folder contains 10 trained models. The following is a brief description of the files included:
+# This folder contains 10 trained models. The following is a brief description of the files included:
 
 1) hypersphere_embs.npy - embedding of the trajetory frames in the hyperspherical latent space.
 2) metastable_states.npy - state assignments for each frame.
