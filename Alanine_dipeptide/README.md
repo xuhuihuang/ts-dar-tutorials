@@ -1,6 +1,6 @@
 # This folder contains the following:
 1. The Jupyter notebook for alanine dipeptide: (./Alanine_dipeptide.ipynb)
-2. Additional scripts for those running on the command line or on HPC or CHTC systems.
+2. Additional scripts for those running on the command line.
 
 The featurized MD trajectories are available on Zenodo: https://zenodo.org/records/17469029/files/Alanine_dipeptide_data.zip?download=1
 
