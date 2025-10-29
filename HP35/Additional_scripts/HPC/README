@@ -1,7 +1,7 @@
 # This folder includes the necessary files to train a TS-DAR model on HPC systems:
 
 (1) train.py - contains the code to load the systems data and train the TS-DAR model
-(2) submit.sh - the executable (type "sbatch submit.sh" to submit on HPC systems)
+(2) submit.sh - the submit file (type "sbatch submit.sh" to submit on HPC systems)
 
 
 NOTE: create conda environment with dependencies of python and python packages:
