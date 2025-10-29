@@ -1,4 +1,4 @@
-This folder contains 5 trained models. The following is a brief description of the files included:
+# This folder contains 5 trained models. The following is a brief description of the files included:
 
 1) model_30epochs.ptytorch - PyTorch trained model.
 2) training_dis.npy - dispersion loss for the training set.
